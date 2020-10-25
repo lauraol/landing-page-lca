@@ -79,4 +79,8 @@ span {
     h2.foto-planos-servico{
     font-size: 2rem;
   }
+
+ .banner-foto{
+   width: 100%;
+ }
 }

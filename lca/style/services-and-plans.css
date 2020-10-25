@@ -24,6 +24,8 @@ p.principal-paragrafo-servicos{
 
 .servicos-oferecidos {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
