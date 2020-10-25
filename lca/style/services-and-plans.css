@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+.container-conteudo{
+  margin: 5% 5% 5% 5%;
+}
+
+h1.titulo-servicos {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: clamp(3rem, 4.5rem, 5rem);
+  text-align: center;
+  color: #6A8BB4;
+  margin-bottom: 3%;
+  
+}
+
+p.principal-paragrafo-servicos{
+  font-family: "Karla", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.servicos-oferecidos {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fotos{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+h2.sm,
+h2.foto{
+  font-family: "Karla", sans-serif;
+  font-size: 4rem;
+  color: #9D4B4E;
+}
+
+h2.foto{
+  color: #B282E5;
+}
+
+h4.sm{
+  font-family: "Karla", sans-serif;
+  font-size: 2rem;
+  color: #9D4B4E;
+  margin-top: 5%;
+}
+
+ul {
+  list-style-image: url('../../assets/image/ideia.svg');
+  font-size: 1.5rem;
+  line-height: 2em;
+}
+
+ul.foto {
+  list-style-image: url('../../assets/image/camera.svg');
+  font-size: 1.5rem;
+  line-height: 2em;
+}
+
+p.texto-sm{
+  font-family: "Karla", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 3%;
+}
+
+p.texto-foto {
+  font-family: "Karla", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 3%;
+}
+
+@media(max-width: 500px){
+  h1.titulo-servicos {
+    font-size: 3rem;
+  }
+  p.principal-paragrafo-servicos,
+  p.texto-sm{
+    font-size: 1rem;
+  }
+
+  .texto-sm{
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  p.texto-foto{
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h2.sm,
+  h2.foto{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  h2.foto{
+    margin-top: none;
+    padding-bottom: 5%;
+ }
+
+ h4.sm{
+    font-size: 1.5rem;
+    text-align: center;
+ }
+
+ ul,
+ ul.foto {
+    font-size: 1rem;
+ }
+
+ .banner-foto{
+    width: 100%;
+ }
+
+.fotos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+}

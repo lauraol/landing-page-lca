@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+.bg-sobre{
+    height: 100vh;
+    background-color: #CDEEEC;
+}
+
+
+h1.titulo-sobre{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: clamp(3rem, 4.5rem, 5rem);
+    text-align: center;
+    color: #3CBBB2;
+    margin-bottom: 3%;
+    padding-top: 5%;
+}
+
+p.resumo{
+    font-family: "Karla", sans-serif;
+    font-size: 1.2rem;
+    width: 100%;
+
+}
+
+h3.ola{
+    font-family: "Karla", sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+span.nome-empresa{
+    font-family: "Shadows Into Light", cursive;
+    color: #b3282f;
+}
+
+.sobre-a-profissional{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.mini-bio{
+    margin-left: 5%;
+    width: 30%;
+}
+
+.imagem-laura{
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 5%;
+    width: 700px;
+}
+
+.medias{
+    width: 80px;
+    height: 80px;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+@media(max-width:500px){
+
+    .bg-sobre{
+        width: 100vw;
+        height: 110vh;
+    }
+    h1.titulo-sobre{
+        font-size: 3rem;
+    }
+
+    p.resumo{
+        font-size: 1rem;
+    
+    }
+
+    h3.ola{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: 2.5rem;
+    }
+
+    .sobre-a-profissional{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .mini-bio{
+        margin-left: 5%;
+        width: 100%;
+    }
+
+    .imagem-laura{
+        width: 300px;
+    }
+
+    .medias{
+        width: 70px;
+        height: 70px;
+        margin-left: 2%;
+        cursor: pointer;
+    }
+
+    .icone-um{
+        margin-left: 20%;
+    }
+}

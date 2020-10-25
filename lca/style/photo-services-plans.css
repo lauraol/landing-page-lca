@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+h2.foto-planos-servico{
+  font-family: "Karla", sans-serif;
+  font-size: 3rem;
+  color: #B282E5;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.servico {
+  font-family: "Karla", sans-serif;
+  text-align: center;
+}
+
+.bronze,
+.prata,
+.ouro,
+.azul {
+  font-family: "Karla", sans-serif;
+  font-size: 1.5rem;
+  
+}
+
+p.valor-foto{
+    margin-bottom: 2.5rem;
+}
+
+div.card{
+  background-color:whitesmoke;
+  transition: 200ms;
+}
+
+div.card:hover{
+  cursor: pointer;
+  box-shadow: 2px 2px 10px  #B282E5;
+}
+
+.valor {
+  padding-bottom: 8%;
+}
+
+.bronze {
+  color: #A978A5;
+}
+
+.prata {
+  color: #956B81;
+}
+
+.ouro {
+  color: #62354C;
+}
+
+.lista-foto {
+    font-family: "Karla", sans-serif;
+    font-size: 1rem;
+}
+
+.lista-foto li{
+    margin-left: 23%;
+}
+
+.card-unico {
+  display: flex;
+  justify-content: center;
+}
+
+p.descricao-card {
+  text-align: center;
+}
+
+span {
+  font-weight: bold;
+}
+
+@media(max-width: 500px){
+    h2.foto-planos-servico{
+    font-size: 2rem;
+  }
+}
