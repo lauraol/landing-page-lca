@@ -20,6 +20,7 @@ h1.titulo-sobre{
 p.resumo{
     font-family: "Karla", sans-serif;
     font-size: 1.2rem;
+    text-align: justify;
     width: 100%;
 
 }
@@ -64,9 +65,11 @@ span.nome-empresa{
 
 @media(max-width:500px){
 
+
+
     .bg-sobre{
         width: 100vw;
-        height: 110vh;
+        height: 140vh;
     }
     h1.titulo-sobre{
         font-size: 3rem;
@@ -74,7 +77,8 @@ span.nome-empresa{
 
     p.resumo{
         font-size: 1rem;
-    
+        padding: 4%;
+        padding-right: 8%;
     }
 
     h3.ola{
