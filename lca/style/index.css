@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+html{
+  scroll-behavior: smooth;
+}
+
+/*Banner*/
+.bg-header{
+  background: url('../assets/banner-menu.png') #ffc6c4 no-repeat 80% 95%;
+  height: 100vh;
+}
+
+.banner-header{
+  margin-left:10%;
+  margin-right: 10%;
+}
+
+
+.menu li a {
+  font-family: "Karla", sans-serif;
+  font-size: clamp(15px, 1.5rem, 2rem);
+  text-decoration: none;
+  color: #b3282f;
+  margin-top: 5%;
+  transition: 200ms;
+}
+
+.menu li a:hover{
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+h1.titulo {
+  font-family: 'Gochi Hand', cursive;
+  font-size: clamp(2.2rem, 5.3rem, 5.5rem);
+  font-weight: 700;
+  text-align: left;
+  margin-top: 15%;
+  margin-bottom: 2%;
+  color: #b3282f;
+  width: 30%;
+}
+
+p.descricao,
+h3 {
+  font-family: "Karla", sans-serif;
+  color: #353839;
+}
+
+
+p.descricao {
+  font-size: 1.3rem;
+  line-height: 1em;
+}
+
+.slogan {
+  font-weight: bold;
+  color: #b3282f;
+}
+
+/*Serviços*/
+h2.titulo-servicos {
+  font-family: 'Gochi Hand', cursive;
+  font-weight: bold;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 3%;
+  padding-top: 3%;
+  color: #b3282f;
+}
+
+.cards-servicos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-fotografia,
+.card-social-media{
+  margin-bottom: 5%;
+  padding-bottom: 15px;
+}
+
+.card-fotografia{
+  margin-right: 5%;
+}
+
+a.btn-cor{
+  color: #FFF;
+  background-color: #FFC939;
+}
+
+a.btn-cor:hover{
+  color: #FFC939;
+  background-color: #FFF;
+  border-color: #FFC939;
+}
+
+.card-fotografia img,
+.card-social-media img{
+  width: 200px;
+  padding-top: 5%;
+  padding-left: 25%;
+}
+
+/*Porfólio*/
+
+#portfolio{
+  background-color: #D3D3D3;
+}
+
+h2.titulo-portfolio{
+    font-family: 'Gochi Hand', cursive;
+    font-weight: bold;
+    font-size: clamp(3rem, 4rem, 5rem);
+    text-align: center;
+    color: #b3282f;
+    margin-bottom: 3%;
+    padding-top: 5%;
+}
+
+#portfolio p{
+  font-family: "Karla", sans-serif;
+  font-size: 1.8em;
+  text-align: center;
+}
+
+#portfolio p a{
+  color: #b3282f;
+  text-decoration: none;
+}
+
+.galeria{
+  padding-bottom: 5%;
+}
