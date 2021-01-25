@@ -123,13 +123,136 @@
   }
 }
 
-/*smartphone*/
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 700px) and (max-width: 787px){
   /*Banner*/
   .bg-header {
     background: url("../assets/banner-menu_-tablet-mobile.png") #ffc6c4
+      no-repeat 50% 475px;
+    height: 120vh;
+  }
+
+  h1.titulo {
+    font-size: 3.5em;
+    width: 90%;
+  }
+
+  /*Serviços*/
+  h2.titulo-servicos {
+    font-size: 3.2em;
+  }
+
+  .cards-servicos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-fotografia {
+    margin-right: 0;
+  }
+
+  h2.titulo-portfolio {
+    font-size: 3.2em;
+  }
+
+  /*Portfólio*/
+  #portfolio p {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  /*Sobre*/
+  h2.titulo-sobre {
+    font-size: 3.2em;
+  }
+
+  .conteudo-sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+  }
+
+  .foto-laura {
+    width: 90%;
+  }
+
+  .biografia {
+    margin-top: 5%;
+  }
+
+  .primeiro-icone {
+    margin-left: 25%;
+  }
+
+  /*Contato*/
+  h1.contato-h1 {
+    font-size: 3.2rem;
+  }
+
+  p.paragrafo-contato {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  /*Serviços - Fotografia*/
+  .foto-h1 {
+    font-size: 3.2rem;
+  }
+
+  .texto-foto {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+  }
+
+  .cards-servicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+
+  .card {
+    margin-bottom: 2%;
+  }
+
+  /*Serviços - Social Media*/
+
+  .imagem-banner {
+    display: none;
+  }
+
+  .descricao h1 {
+    font-size: 3.2rem;
+  }
+
+  .titulo-servicos-sm {
+    font-size: 3.2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  p.p-social-media-servicos {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .banner-social-media {
+    padding-bottom: 5%;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 699px){
+   /*Banner*/
+   .bg-header {
+    background: url("../assets/banner-menu_-tablet-mobile.png") #ffc6c4
       no-repeat 55% 200px;
-    background-size: 260px auto;
+    background-size: 300px auto;
     height: 110vh;
   }
 
@@ -281,10 +404,195 @@
     font-size: 2.5rem;
   }
 
+  .descricao h3{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
   .titulo-servicos-sm {
     font-size: 2.5rem;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  p.p-social-media-servicos {
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 1.4rem;
+  }
+
+  .banner-social-media {
+    padding-bottom: 5%;
+  }
+}
+
+/*smartphone*/
+@media only screen and (max-width: 500px) {
+  /*Banner*/
+  .bg-header {
+    background: url("../assets/banner-menu_-tablet-mobile.png") #ffc6c4
+      no-repeat 55% 200px;
+    background-size: 260px auto;
+    height: 125vh;
+  }
+
+  .banner-header {
+    margin: auto;
+  }
+
+  .menu li a {
+    font-size: 15px;
+  }
+
+  h1.titulo {
+    font-size: 2.5rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 115%;
+  }
+
+  p.descricao {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  /*Serviços*/
+  h2.titulo-servicos {
+    font-size: 2.5rem;
+  }
+
+  .cards-servicos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-fotografia {
+    margin-right: 0;
+  }
+
+  /*Portfólio*/
+
+  h2.titulo-portfolio {
+    font-size: 2.5rem;
+  }
+
+  #portfolio p {
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 1.4rem;
+  }
+
+  /*Sobre*/
+  h2.titulo-sobre {
+    font-size: 2.5rem;
+  }
+
+  .conteudo-sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+  }
+
+  .foto-laura {
+    width: 90%;
+  }
+
+  .biografia {
+    margin-top: 5%;
+  }
+
+  .biografia-texto h3 {
+    font-size: 1.2em;
+  }
+
+  .align-content-mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .primeiro-icone {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+
+  .icone-contato {
+    margin-right: 10px;
+  }
+
+  .primeiro-icone,
+  .icone-contato {
+    width: 50px;
+    height: 50px;
+  }
+
+  /*Contato*/
+  h1.contato-h1 {
+    font-size: 2.5rem;
+  }
+
+  p.paragrafo-contato {
+    font-size: 1.4rem;
+  }
+
+  .formulario {
+    width: 85%;
+  }
+
+  /*Serviços - Fotografia*/
+  .foto-h1 {
+    font-size: 2.5rem;
+  }
+
+  .texto-foto {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+
+  .cards-servicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+
+  .card {
+    margin-bottom: 2%;
+  }
+
+  /*Serviços - Social Media*/
+
+  .imagem-banner {
+    display: none;
+  }
+
+  .descricao h1 {
+    font-size: 2.5rem;
+  }
+
+  .descricao h3{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .titulo-servicos-sm {
+    font-size: 2.5rem;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   p.p-social-media-servicos {
