@@ -139,28 +139,26 @@
               </div>
 
               <div class="formulario">
-                <form>
+                <form id="formulario-contato" action="https://formspree.io/f/xnqowowp" method="post">
                   <div class="form-group">
                     <label for="name">Nome</label>
-                    <input type="text" class="form-control" id="name" placeholder="Escreva seu nome">
+                    <input type="text" class="form-control" id="name" placeholder="Escreva seu nome" name="name" required>
                   </div>
                   <div class="form-group">
                     <label for="email">Endereço de email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Escreva seu endereço de e-mail">
+                    <input type="email" class="form-control" id="email" placeholder="Escreva seu endereço de e-mail" name="_replyto" required>
                   </div>
                   <div class="form-group">
                     <label for="textarea">Mensagem</label>
-                    <textarea class="form-control" id="textarea" rows="8"></textarea>
+                    <textarea class="form-control" id="textarea" rows="8" name="mensagem" required></textarea>
                   </div>
 
-                  <button type="button" class="btn btn-contato" id="sendmail">Enviar</button>
+                  <button type="submit" value="Send" class="btn btn-contato">Enviar</button>
                 </form>
               </div>
+
           </div>
     </section>
-
-    <script src="./scripts/contato.js"></script>
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <a href="https://api.whatsapp.com/send?phone=5511959722413&text=Ol%C3%A1,%20gostaria%20de%20contratar%20um%20servi%C3%A7o%20ou%20tirar%20algumas%20d%C3%BAvidas." style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
       z-index:1000;" target="_blank">
