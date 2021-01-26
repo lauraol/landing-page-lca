@@ -5,6 +5,15 @@ html{
   scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar {
+  width: 15px
+} 
+
+body::-webkit-scrollbar-thumb {   
+background-color:  #b3282f;;   
+border-radius: 10px;
+}
+
 /*Banner*/
 .bg-header{
   background: url('../assets/banner-menu.png') #ffc6c4 no-repeat 80% 95%;

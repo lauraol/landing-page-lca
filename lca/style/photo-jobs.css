@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
 
+body::-webkit-scrollbar {
+    width: 15px
+} 
+  
+body::-webkit-scrollbar-thumb {   
+background-color:  #b3282f;;   
+border-radius: 10px;
+}
+
 .banner-fotografia{
     background-color: #ffc6c4;
 }
