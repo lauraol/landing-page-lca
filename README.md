@@ -16,10 +16,3 @@ Lading page criada para uma agência de fotografia e social media, com intuito d
  ## 💻 Link da aplicação
  Para acessar o site clique:
  https://agencialca.vercel.app/
-
- ## 💻 Demo
-<p align="center">
-  <kbd>
-    <img  style="border-radius: 5px" height="450" src="https://imgur.com/m8mQud3.gif" alt="Intro">
-  </kbd>
-</p>
