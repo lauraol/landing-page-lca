@@ -25,6 +25,10 @@ border-radius: 10px;
   margin-right: 10%;
 }
 
+ul.menu{
+  display: flex;
+  justify-content: flex-end;
+}
 
 .menu li a {
   font-family: "Karla", sans-serif;

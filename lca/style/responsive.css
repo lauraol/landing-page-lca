@@ -260,6 +260,11 @@
     margin: auto;
   }
 
+  ul.menu{
+    display: flex;
+    justify-content: center;
+  }
+
   .menu li a {
     font-size: 15px;
   }
@@ -431,13 +436,18 @@
   /*Banner*/
   .bg-header {
     background: url("../assets/banner-menu_-tablet-mobile.png") #ffc6c4
-      no-repeat 55% 200px;
+      no-repeat 55% 220px;
     background-size: 260px auto;
-    height: 125vh;
+    height: 130vh;
   }
 
   .banner-header {
     margin: auto;
+  }
+
+  ul.menu{
+    display: flex;
+    justify-content: center;
   }
 
   .menu li a {
@@ -445,11 +455,11 @@
   }
 
   h1.titulo {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     width: 100%;
     text-align: center;
     margin-top: 5%;
-    margin-bottom: 115%;
+    margin-bottom: 122%;
   }
 
   p.descricao {
