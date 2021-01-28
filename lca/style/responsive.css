@@ -595,8 +595,8 @@
   }
 
   .descricao h3{
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: none;
+    margin-right: none;
   }
 
   .titulo-servicos-sm {
