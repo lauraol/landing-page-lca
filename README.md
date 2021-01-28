@@ -1,7 +1,8 @@
 # Agência LCA 📷✨
-
-<p align=center>
-    <img src="./assets/capa-readme.png">
+<p align="center">
+  <kbd>
+    <img  src="https://imgur.com/sJK4CYv.png" alt="Intro">
+  </kbd>
 </p>
 
 ## 🚀 Sobre o projeto
@@ -11,8 +12,7 @@ Lading page criada para uma agência de fotografia e social media, com intuito d
  - HTML5
  - CSS3
  - Bootstrap
-
- ## 💻 Demo do Projeto
-<p align=center>
-    <img src="https://youtu.be/kZE3G8ZGFL4">
-</p>
+ 
+ ## 💻 Link da aplicação
+ Para acessar o site clique:
+ https://agencialca.vercel.app/
