@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Agência LCA - Fotografia e Social Media</title>
+    <title>Lau's Rainbow - Fotografia e Social Media</title>
     <meta
       name="description"
-      content="A Agência LCA possui diversos serviços de fotografia. 
+      content="A Lau's Rainbow possui diversos serviços de fotografia. 
     Também cuidamos das suas redes sociais por meio de nossos pacotes de social media."
     />
 
@@ -14,11 +14,11 @@
     <meta property="og:type" content="website" />
     <meta
       property="og:title"
-      content="Agência LCA - Fotografia e Social Media"
+      content="Lau's Rainbow - Fotografia e Social Media"
     />
     <meta
       property="og:description"
-      content="A Agência LCA possui diversos serviços de fotografia. 
+      content="A Lau's Rainbow possui diversos serviços de fotografia. 
     Também cuidamos das suas redes sociais por meio de nossos pacotes de social media."
     />
     <meta property="og:url" content="http://agencialca.com/" />
@@ -29,286 +29,65 @@
 
     <link rel="shortcut icon" href="./assets/camera.svg" />
 
-    <link rel="stylesheet" href="./style/reset.css" />
-    <link rel="stylesheet" href="./style/normalize.css" />
+    <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style/index.css" />
-    <link rel="stylesheet" href="./style/about.css" />
-    <link rel="stylesheet" href="./style/contact.css" />
     <link rel="stylesheet" href="./style/responsive.css" />
-
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
   </head>
   <body>
-    <section class="bg-header">
-      <div class="banner-header">
-        <ul class="nav menu">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Início</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#servicos">Serviços</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfólio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#sobre">Sobre</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contato">Contato</a>
-          </li>
+    <div class="container">
+      <img
+        src="./assets/first-banner.png"
+        alt="Lau's Rainbow - Fotografia e Social Media"
+      />
+      <nav>
+        <ul class="navbar">
+          <li><a href="#services" class="button">Serviços</a></li>
+          <li><a href="#" class="button">Contato</a></li>
+          <li><a href="#" class="button">Sobre</a></li>
         </ul>
-        <div class="texto-banner">
-          <h1 class="titulo">Agência LCA Fotografia e Social Media</h1>
-          <p class="descricao">
-            Fotografias de gastronomia, retratos e eventos.
+      </nav>
+    <section id="services">
+      <div class="separe-itens-social-media">
+        <div class="paragraph">
+          <p>
+            Quer alavancar o seu negócio nas mídias sociais, construir autoridade dentro do seu nicho e com isso captar mais clientes e vender seus produtos?
           </p>
-          <p class="descricao">Mentoria e gerenciamento de mídias sociais.</p>
-          <h3>Job de qualidade? <span class="slogan">#LCAFAZ</span></h3>
+          <a class="call-to-action" href="#">Conheça nossos serviços</a>
         </div>
-      </div>
-    </section>
-
-    <section id="servicos">
-      <h2 class="titulo-servicos">Serviços</h2>
-      <div class="cards-servicos">
-        <div class="card card-fotografia" style="width: 18rem">
+        <div class="illustrations">
           <img
-            src="./assets/camera.svg"
-            class="card-img-top"
-            alt="Icone de uma câmera."
+          class=""
+            src="./assets/teste.png"
+            alt="Ilustração de uma mão segurando um celular"
           />
-          <div class="card-body">
-            <h5 class="card-title">Fotografia</h5>
-            <p class="card-text">
-              Fotos dos seus produtos, cobertura de eventos ou sempre quis fazer
-              um ensaio fotográfico?
-            </p>
-            <a href="photo-jobs.html" class="btn btn-cor">Conhecer serviços</a>
-          </div>
         </div>
-
-        <div class="card card-social-media" style="width: 18rem">
-          <img
-            src="./assets/ideia-social-media.svg"
-            class="card-img-top"
-            alt="Icone de uma lâmpada, representando uma ideia."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Social Media</h5>
-            <p class="card-text">
-              Seu negócio está presente nas mídias sociais? Uma social media é
-              perfeito para te ajudar.
-            </p>
-            <a href="social-media-jobs.html" class="btn btn-cor"
-              >Conhecer serviços</a
-            >
-          </div>
+      </div>
+      <div class="separe-itens-photo">
+        <div class="illustrations">
+          <img class="icon" src="./assets/photo-img.png" alt="Ilustração de uma câmera fotográfica">
+        </div>
+        <div class="paragraph-photo">
+          <p>Quer fotos profissionais suas ou dos seus produtos, cobertura de eventos ou sempre quis fazer um ensaio fotográfico? Não perca tempo e conheça os serviços disponíveis!</p>
+          <a class="call-to-action" href="#">Conheça nossos serviços</a>
         </div>
       </div>
     </section>
-
-    <section id="portfolio">
-      <h2 class="titulo-portfolio">Portfólio</h2>
-      <p>
-        Para conferir mais fotos e conteúdos, siga-me no instagram
-        <a href="https://www.instagram.com/agencialca/" target="_blank"
-          >@agencialca</a
-        >
-      </p>
-      <div class="container galeria">
-        <!-- SnapWidget -->
-        <script src="https://snapwidget.com/js/snapwidget.js"></script>
-        <iframe
-          src="https://snapwidget.com/embed/902494"
-          class="snapwidget-widget"
-          allowtransparency="true"
-          frameborder="0"
-          scrolling="no"
-          style="border: none; overflow: hidden; width: 100%"
-        ></iframe>
+    <section id="contact">
+      <img src="./assets/banner.jpg" alt="Imagem com a frase: You got this." />
+      <h2>Entre em contato e me acompanhe nas redes sociais</h2>
+      <div class="social-media-links">
+        <a href="https://www.instagram.com/lausrainbow/"><img src="./assets/instagram.png" alt="Clique aqui para ser direcionado para o instagram @lausrainbow."></a>
+        <a href="https://www.linkedin.com/in/laura-costa-aquino-652840155/"><img src="./assets/linkedin.png" alt="Clique aqui para ser direcionado para o meu linkedin."></a>
+        <a href="https://api.whatsapp.com/send?phone=5511959722413&text=Ol%C3%A1,%20gostaria%20de%20contratar%20um%20servi%C3%A7o%20ou%20tirar%20algumas%20d%C3%BAvidas?"><img src="./assets/whatsapp.png" alt="Clique aqui para falar comigo no whatsapp"></a>
+        <a href="#"><img src="./assets/gmail.png" alt="Clique aqui para me mandar um e-mail."></a>
       </div>
     </section>
-
-    <section id="sobre">
-      <h2 class="titulo-sobre">Sobre</h2>
-      <div class="conteudo-sobre">
-        <img
-          class="foto-laura"
-          src="./assets/capa-laura.jpeg"
-          alt="Laura Costa Aquino"
-        />
-
-        <div class="biografia-texto">
-          <p class="biografia">
-            Eu sou a Laura, responsável pela
-            <span class="nome-empresa">LCA Fotografia e Social Media</span>.
-            Desde criança sempre fui apaixonada pela arte de fotografar e gravar
-            momentos a partir dos meus olhos. Me tornar uma fotógrafa
-            profissional foi consequência.
-          </p>
-
-          <p class="biografia">
-            Depois de estudar a área de social media, percebi uma nova carreira
-            complementar à fotografia e me formei uma criadora de conteúdo
-            completa. E estarei eternamente em uma jornada de estudo e
-            desenvolvimento.
-          </p>
-
-          <p class="biografia">
-            Minha função é ajudar as pessoas e empresas a alavancarem suas
-            marcas pessoais e profissionais através de fotos, mentoria e criação
-            de conteúdo de qualidade.
-          </p>
-
-          <h3>
-            Quer saber onde me encontrar? Então me siga nas redes sociais ou
-            entre em contato.
-          </h3>
-
-          <div class="align-content-mobile">
-            <a href="https://www.instagram.com/agencialca" target="_blank">
-              <img
-                src="./assets/instagram.svg"
-                alt="Clique para ser redirecionado para o instagram @agencialca"
-                class="primeiro-icone"
-              />
-            </a>
-
-            <a href="hhtps://m.facebook.com/agencialca" target="_blank">
-              <img
-                src="./assets/facebook.svg"
-                alt="Clique para ser redirecionado para o facebook"
-                class="icone-contato"
-              />
-            </a>
-
-            <a
-              href="https://www.linkedin.com/in/laura-costa-aquino-652840155/"
-              target="_blank"
-            >
-              <img
-                src="./assets/linkedin.svg"
-                alt="Clique para ser redirecionado para o linkedin"
-                class="icone-contato"
-              />
-            </a>
-
-            <a
-              href="https://api.whatsapp.com/send?phone=5511959722413&text=Ol%C3%A1,%20gostaria%20de%20contratar%20um%20servi%C3%A7o%20ou%20tirar%20algumas%20d%C3%BAvidas."
-              target="_blank"
-            >
-              <img
-                src="./assets/whatsapp.svg"
-                alt="Clique para ser redirecionado para o whatsapp"
-                class="icone-contato"
-              />
-            </a>
-          </div>
-        </div>
-      </div>
+    <section id="about-the-professional">
+      <img src="./assets/profile-photo.png" alt="Laura, responsável pela Lau's Rainbow, uma menina de pele branca de cabelos curtos.">
+      <img class="profile-photo-mobile" src="./assets/profile-photo-mobile.png" alt="">
     </section>
-
-    <section id="contato">
-      <h1 class="contato-h1">Contato</h1>
-      <div class="container-conteudo-contato">
-        <div class="informacoes-contato">
-          <p class="paragrafo-contato">
-            Se interessou pelo meu trabalho? Então não perca tempo e entre em
-            contato.
-          </p>
-        </div>
-
-        <div class="formulario">
-          <form
-            id="formulario-contato"
-            action="https://formspree.io/f/xnqowowp"
-            method="post"
-          >
-            <div class="form-group">
-              <label for="name">Nome</label>
-              <input
-                type="text"
-                class="form-control"
-                id="name"
-                placeholder="Escreva seu nome"
-                name="name"
-                required
-              />
-            </div>
-            <div class="form-group">
-              <label for="email">Endereço de email</label>
-              <input
-                type="email"
-                class="form-control"
-                id="email"
-                placeholder="Escreva seu endereço de e-mail"
-                name="_replyto"
-                required
-              />
-            </div>
-            <div class="form-group">
-              <label for="textarea">Mensagem</label>
-              <textarea
-                class="form-control"
-                id="textarea"
-                rows="8"
-                name="mensagem"
-                required
-              ></textarea>
-            </div>
-
-            <button type="submit" value="Send" class="btn btn-contato">
-              Enviar
-            </button>
-          </form>
-        </div>
-      </div>
-    </section>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
-    />
-    <a
-      href="https://api.whatsapp.com/send?phone=5511959722413&text=Ol%C3%A1,%20gostaria%20de%20contratar%20um%20servi%C3%A7o%20ou%20tirar%20algumas%20d%C3%BAvidas."
-      style="
-        position: fixed;
-        width: 60px;
-        height: 60px;
-        bottom: 40px;
-        right: 40px;
-        background-color: #25d366;
-        color: #fff;
-        border-radius: 50px;
-        text-align: center;
-        font-size: 30px;
-        box-shadow: 1px 1px 2px #888;
-        z-index: 1000;
-      "
-      target="_blank"
-    >
-      <i style="margin-top: 16px" class="fa fa-whatsapp"></i>
-    </a>
-
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
+    <footer>
+      <p>© Todos os direitos reservados | Desenvolvido por Laura Oliveira</p>
+    </footer>
   </body>
 </html>

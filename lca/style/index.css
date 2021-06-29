@@ -1,150 +1,180 @@
-@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
-html{
-  scroll-behavior: smooth;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-body::-webkit-scrollbar {
-  width: 15px
-} 
-
-body::-webkit-scrollbar-thumb {   
-background-color:  #b3282f;;   
-border-radius: 10px;
+body {
+  background-color: #383838;
 }
 
-/*Banner*/
-.bg-header{
-  background: url('../assets/banner-menu.png') #ffc6c4 no-repeat 80% 95%;
-  height: 105vh;
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
 }
 
-.banner-header{
-  margin-left:10%;
-  margin-right: 10%;
+::-webkit-scrollbar-thumb {
+  background: #d3d3d3;
+  border-radius: 50px;
 }
 
-ul.menu{
+/*banner*/
+div.container img {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+ul.navbar {
+  position: absolute;
+  top: 0%;
+  left: 5%;
+
   display: flex;
-  justify-content: flex-end;
+
+  align-items: center;
+
+  width: 100%;
+
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
-.menu li a {
-  font-family: "Karla", sans-serif;
-  font-size: clamp(15px, 1.5rem, 2rem);
-  text-decoration: none;
-  color: #b3282f;
-  margin-top: 5%;
-  transition: 200ms;
+li {
+  list-style: none;
 }
 
-.menu li a:hover{
-  background-color: #FFFFFF;
-  border-radius: 8px;
+a.button {
+  font-family: "Nunito", sans-serif;
+  font-size: 25px;
   font-weight: bold;
-}
-
-h1.titulo {
-  font-family: 'Gochi Hand', cursive;
-  font-size: clamp(2.2rem, 5.3rem, 5.5rem);
-  font-weight: 700;
-  text-align: left;
-  margin-top: 15%;
-  margin-bottom: 2%;
-  color: #b3282f;
-  width: 30%;
-}
-
-p.descricao,
-h3 {
-  font-family: "Karla", sans-serif;
-  color: #353839;
-}
-
-
-p.descricao {
-  font-size: 1.3rem;
-  line-height: 1em;
-}
-
-.slogan {
-  font-weight: bold;
-  color: #b3282f;
-}
-
-/*Serviços*/
-h2.titulo-servicos {
-  font-family: 'Gochi Hand', cursive;
-  font-weight: bold;
-  font-size: 4rem;
   text-align: center;
-  margin-bottom: 3%;
-  padding-top: 3%;
-  color: #b3282f;
+  color: #ffffff;
+
+  padding: 0px 20px 0px 20px;
+
+  text-decoration: none;
 }
 
-.cards-servicos{
+/*services offered*/
+div.separe-itens-social-media {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+  margin: 2% 15% 2% 15%;
+}
+
+div.paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+div.paragraph p {
+  font-family: "Nunito", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  color: #ffffff;
+
+  margin-bottom: 35px;
+}
+
+a.call-to-action {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+
+  width: 300px;
+  background-color: #ff52b4;
+  padding: 30px;
+
+  border-radius: 50px;
+}
+
+div.separe-itens-photo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background-color: #eeeeee;
+
+  padding: 8% 10% 8% 15%;
+}
+
+div.paragraph-photo {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
-.card-fotografia,
-.card-social-media{
-  margin-bottom: 5%;
-  padding-bottom: 15px;
-}
-
-.card-fotografia{
-  margin-right: 5%;
-}
-
-a.btn-cor{
-  color: #FFF;
-  background-color: #FFC939;
-}
-
-a.btn-cor:hover{
-  color: #FFC939;
-  background-color: #FFF;
-  border-color: #FFC939;
-}
-
-.card-fotografia img,
-.card-social-media img{
-  width: 200px;
-  padding-top: 5%;
-  padding-left: 25%;
-}
-
-/*Porfólio*/
-
-#portfolio{
-  background-color: #D3D3D3;
-}
-
-h2.titulo-portfolio{
-    font-family: 'Gochi Hand', cursive;
-    font-weight: bold;
-    font-size: clamp(3rem, 4rem, 5rem);
-    text-align: center;
-    color: #b3282f;
-    margin-bottom: 3%;
-    padding-top: 5%;
-}
-
-#portfolio p{
-  font-family: "Karla", sans-serif;
-  font-size: 1.8em;
+div.paragraph-photo p {
+  font-family: "Nunito", sans-serif;
+  font-size: 25px;
   text-align: center;
+  color: #ffffff;
+
+  margin-bottom: 35px;
+  color: #383838;
+
+  width: 80%;
 }
 
-#portfolio p a{
-  color: #b3282f;
-  text-decoration: none;
+/*contact*/
+section#contact {
+  background-color: #eeeeee;
 }
 
-.galeria{
-  padding-bottom: 5%;
+section#contact h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 55px;
+  text-align: center;
+  color: #383838;
+
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+div.social-media-links {
+  display: flex;
+  justify-content: space-evenly;
+
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+div.social-media-links a {
+  margin-bottom: 10%;
+}
+
+div.social-media-links img {
+  width: 150px;
+  height: 150px;
+}
+
+/*about the professional*/
+section#about-the-professional img {
+  width: 100%;
+}
+
+section#about-the-professional img.profile-photo-mobile {
+  display: none;
+}
+
+/*footer*/
+footer p {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+
+  padding: 2% 0% 2% 0%;
 }
