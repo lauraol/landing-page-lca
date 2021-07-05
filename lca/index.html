@@ -21,19 +21,32 @@
       content="A Lau's Rainbow possui diversos serviços de fotografia. 
     Também cuidamos das suas redes sociais por meio de nossos pacotes de social media."
     />
-    <meta property="og:url" content="http://agencialca.com/" />
+    <meta property="og:url" content="http://lausrainbow.com.br/" />
     <meta
       property="og:image"
-      content="http://agencialca.com/assets/og-image.png"
+      content="http://lausrainbow.com.br/assets/og-image.png"
     />
 
-    <link rel="shortcut icon" href="./assets/camera.svg" />
+    <link rel="shortcut icon" href="./assets/rainbow.png" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style/index.css" />
     <link rel="stylesheet" href="./style/responsive.css" />
   </head>
   <body>
+    <div class="topnav">
+      <a href="#home" class="active"></a>
+      <div id="myLinks">
+        <a href="#services">Serviços</a>
+        <a href="#contact">Contato</a>
+        <a href="#about-the-professional">Sobre</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
     <div class="container">
       <img
         src="./assets/first-banner.png"
@@ -42,8 +55,8 @@
       <nav>
         <ul class="navbar">
           <li><a href="#services" class="button">Serviços</a></li>
-          <li><a href="#" class="button">Contato</a></li>
-          <li><a href="#" class="button">Sobre</a></li>
+          <li><a href="#contact" class="button">Contato</a></li>
+          <li><a href="#about-the-professional" class="button">Sobre</a></li>
         </ul>
       </nav>
     <section id="services">
@@ -89,5 +102,6 @@
     <footer>
       <p>© Todos os direitos reservados | Desenvolvido por Laura Oliveira</p>
     </footer>
+    <script src="./scripts/navbarmobile.js"></script>
   </body>
 </html>

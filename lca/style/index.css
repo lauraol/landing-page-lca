@@ -27,6 +27,11 @@ div.container img {
   width: 100%;
 }
 
+/*navbarmobile*/
+div.topnav {
+  display: none;
+}
+
 ul.navbar {
   position: absolute;
   top: 0%;
@@ -36,7 +41,7 @@ ul.navbar {
 
   align-items: center;
 
-  width: 100%;
+  width: 95%;
 
   padding-top: 2%;
   padding-bottom: 2%;
