@@ -66,6 +66,7 @@
 
   a.call-to-action {
     width: 250px;
+    font-size: 18px;
     background-color: #ff52b4;
     padding: 20px;
   }
@@ -93,10 +94,62 @@
   footer p {
     font-size: 15px;
   }
+
+  /*services - photo*/
+  a img.return {
+    width: 45px;
+    height: 45px;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  div.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5%;
+  }
+
+  div.card {
+    width: 310px;
+    height: 420px;
+  }
+
+  img.card-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  p.card-title {
+    font-size: 20px;
+  }
+
+  p.card-description {
+    font-size: 16px;
+  }
+
+  a.redirect-to-whatsapp {
+    width: 180px;
+    font-size: 16px;
+  }
 }
 
 /*smartphone*/
 @media screen and (max-width: 767px) {
+  /*banner*/
+  div.container img.banner-internet {
+    display: none;
+  }
+
+  div.container img.banner-mobile {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+  }
+
   /*menu*/
   nav {
     display: none;
@@ -109,7 +162,7 @@
   /* Style the navigation menu */
   .topnav {
     overflow: hidden;
-    background-color: #1ed5c3;
+    background-color: #ff52b4;
     position: relative;
   }
 
@@ -130,7 +183,7 @@
 
   /* Style the hamburger menu */
   .topnav a.icon {
-    background: #1ed5c3;
+    background: #ff52b4;
     display: block;
     position: absolute;
     right: 0;
@@ -139,14 +192,14 @@
 
   /* Add a grey background color on mouse-over */
   .topnav a:hover {
-    background-color: #1ed5c3;
+    background-color: #ff52b4;
     color: #ffffff;
   }
 
   /* Style the active link (or home/logo) */
   .active {
     height: 20px;
-    background-color: #1ed5c3;
+    background-color: #ff52b4;
     color: white;
   }
 
@@ -209,5 +262,46 @@
   /*footer*/
   footer p {
     font-size: 12px;
+  }
+
+  /*services - photo*/
+  a img.return {
+    width: 45px;
+    height: 45px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  div.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5%;
+  }
+
+  div.card {
+    width: 310px;
+    height: 420px;
+  }
+
+  img.card-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  p.card-title {
+    font-size: 20px;
+  }
+
+  p.card-description {
+    font-size: 16px;
+  }
+
+  a.redirect-to-whatsapp {
+    width: 180px;
+    font-size: 16px;
   }
 }

@@ -6,6 +6,10 @@
   padding: 0px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #383838;
 }
@@ -27,6 +31,10 @@ div.container img {
   width: 100%;
 }
 
+div.container img.banner-mobile {
+  display: none;
+}
+
 /*navbarmobile*/
 div.topnav {
   display: none;
@@ -35,13 +43,13 @@ div.topnav {
 ul.navbar {
   position: absolute;
   top: 0%;
-  left: 5%;
+  right: 5%;
 
   display: flex;
-
+  justify-content: flex-end;
   align-items: center;
 
-  width: 95%;
+  width: 100%;
 
   padding-top: 2%;
   padding-bottom: 2%;
@@ -61,6 +69,10 @@ a.button {
   padding: 0px 20px 0px 20px;
 
   text-decoration: none;
+}
+
+a.button:hover {
+  color: #ff52b4;
 }
 
 /*services offered*/

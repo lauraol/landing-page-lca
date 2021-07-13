@@ -1,0 +1,13 @@
+div.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.card {
+  margin-left: 5%;
+}
+
+p.card-description {
+  text-align: center;
+}

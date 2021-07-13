@@ -1,0 +1,74 @@
+body {
+  background-image: url("../assets/banner-social-media.png");
+}
+
+a img.return {
+  width: 55px;
+  height: 55px;
+}
+
+div.container {
+  margin: 5% 10% 0 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 55px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 5%;
+}
+
+div.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 330px;
+  height: 465px;
+  border-radius: 5px;
+  margin-top: 5%;
+  background-color: #ffffff;
+}
+
+img.card-img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 5%;
+}
+
+p.card-title {
+  font-family: "Nunito", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+p.card-description {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a.redirect-to-whatsapp {
+  width: 200px;
+  padding: 20px;
+  border-radius: 50px;
+  background-color: #ff52b4;
+  margin-top: 5%;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
