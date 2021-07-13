@@ -210,7 +210,7 @@
   }
 
   div.separe-itens-social-media {
-    margin: 8% 5% 8% 5%;
+    margin: 20% 5% 20% 5%;
   }
 
   div.paragraph {
@@ -231,8 +231,13 @@
 
   div.paragraph-photo p {
     font-size: 16px;
+    margin-top: 15%;
     margin-bottom: 15px;
     width: 100%;
+  }
+
+  a.call-to-action-mobile {
+    margin-bottom: 15%;
   }
 
   div.separe-itens-photo {
@@ -242,7 +247,7 @@
   /*contact*/
   section#contact h2 {
     font-size: 20px;
-    margin: 8% 10% 5% 10%;
+    margin: 10% 10% 10% 10%;
   }
 
   div.social-media-links img {
