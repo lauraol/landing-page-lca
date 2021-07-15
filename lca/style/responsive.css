@@ -37,6 +37,38 @@
     width: 120px;
     height: 120px;
   }
+
+  /*services - photo*/
+  div.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5%;
+  }
+
+  div.card {
+    width: 310px;
+    height: 420px;
+  }
+
+  img.card-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  p.card-title {
+    font-size: 20px;
+  }
+
+  p.card-description {
+    font-size: 16px;
+  }
+
+  a.redirect-to-whatsapp {
+    width: 180px;
+    font-size: 16px;
+  }
 }
 
 /*tablet*/
