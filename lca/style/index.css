@@ -76,13 +76,21 @@ a.button:hover {
 }
 
 /*services offered*/
+h2.title-of-services {
+  font-family: "Nunito", sans-serif;
+  font-size: 55px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 5%;
+}
+
 div.separe-itens-social-media {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
 
-  margin: 2% 15% 2% 15%;
+  margin: 2% 10% 5% 10%;
 }
 
 div.paragraph {
@@ -116,15 +124,22 @@ a.call-to-action {
   border-radius: 50px;
 }
 
+div.bg-photo {
+  background-color: #eeeeee;
+}
+
+h2.title-photo {
+  color: #383838;
+  padding-top: 5%;
+}
+
 div.separe-itens-photo {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
 
-  background-color: #eeeeee;
-
-  padding: 8% 10% 8% 15%;
+  padding: 2% 10% 5% 15%;
 }
 
 div.paragraph-photo {

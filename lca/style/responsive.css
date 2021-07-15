@@ -1,8 +1,12 @@
 /*desktop*/
 @media screen and (min-width: 1024px) and (max-width: 1360px) {
   /*services offered*/
+  h2.title-of-services {
+    font-size: 40px;
+  }
+
   div.separe-itens-social-media {
-    margin: 2% 10% 2% 10%;
+    margin: 2% 10% 5% 10%;
   }
 
   div.paragraph {
@@ -21,10 +25,11 @@
 
   div.paragraph-photo p {
     font-size: 23px;
+    width: 100%;
   }
 
   div.separe-itens-photo {
-    padding: 8% 8% 8% 10%;
+    padding: 2% 10% 5% 10%;
   }
 
   /*contact*/
@@ -79,13 +84,12 @@
   }
 
   /*services offered*/
-  div.illustrations img.icon,
-  div.illustrations img {
-    display: none;
+  h2.title-of-services {
+    font-size: 35px;
   }
 
   div.separe-itens-social-media {
-    margin: 8% 10% 8% 10%;
+    margin: 2% 10% 5% 10%;
   }
 
   div.paragraph {
@@ -105,10 +109,11 @@
 
   div.paragraph-photo p {
     font-size: 20px;
+    width: 100%;
   }
 
   div.separe-itens-photo {
-    padding: 8% 8% 8% 8%;
+    padding: 2% 10% 5% 10%;
   }
 
   /*contact*/
@@ -235,14 +240,13 @@
     color: white;
   }
 
-  /*services offered*/
-  div.illustrations img.icon,
-  div.illustrations img {
-    display: none;
+  h2.title-of-services {
+    font-size: 20px;
+    padding-top: 5%;
   }
 
   div.separe-itens-social-media {
-    margin: 20% 5% 20% 5%;
+    margin: 5% 5% 10% 5%;
   }
 
   div.paragraph {
@@ -261,19 +265,23 @@
     padding: 15px;
   }
 
+  h2.title-photo {
+    color: #383838;
+    padding-top: 10%;
+  }
+
   div.paragraph-photo p {
     font-size: 16px;
-    margin-top: 15%;
     margin-bottom: 15px;
     width: 100%;
   }
 
   a.call-to-action-mobile {
-    margin-bottom: 15%;
+    margin-bottom: 10%;
   }
 
   div.separe-itens-photo {
-    padding: 8% 5% 8% 5%;
+    padding: 5% 5% 0 5%;
   }
 
   /*contact*/
