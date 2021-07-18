@@ -1,4 +1,37 @@
 /*desktop*/
+@media screen and (min-width: 1361px) and (max-width: 1660px) {
+  /*services - photo*/
+  div.cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 2%;
+  }
+
+  div.card {
+    width: 270px;
+    height: 420px;
+  }
+
+  img.card-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  p.card-title {
+    font-size: 20px;
+  }
+
+  p.card-description {
+    font-size: 16px;
+  }
+
+  a.redirect-to-whatsapp {
+    width: 180px;
+    font-size: 16px;
+  }
+}
+
 @media screen and (min-width: 1024px) and (max-width: 1360px) {
   /*services offered*/
   h2.title-of-services {
@@ -49,7 +82,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
   }
 
   div.card {
